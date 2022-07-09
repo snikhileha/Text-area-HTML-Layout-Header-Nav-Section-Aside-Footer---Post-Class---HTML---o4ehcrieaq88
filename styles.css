@@ -1,1 +1,63 @@
-
+main{
+				background-color: burlywood;
+				border-width: 15px;
+				border-radius: 10px;
+				border-color: black;
+			}
+			div h1{
+				font-weight:700;
+				font-family: 'Times New Roman', Times, serif;
+				text-align: center;
+				color: black;
+			}
+			h1:hover {
+				text-decoration: underline;
+				transition-delay: 2ms;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+			figure.images {
+				display: block;
+				text-align: center;
+			}
+			figure.images img{
+				border: 3px solid yellow;
+				margin: auto;
+				border-radius: 5px;
+			}
+			div.planetInfo{
+				background-color: black;
+				text-align: center;
+				border: 5px solid yellow;
+				margin: 30px 238px 48px;
+				border-radius: 10px;
+				width: 850px;
+			}
+			table, td {
+				color:aqua;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				text-align: center;
+				font-weight: bold;
+				margin:auto;
+				padding: 5px;
+				border-spacing: 5px;
+				
+			}
+			td:hover div.hide{
+				color : blanchedalmond;
+				display: block;
+			}
+			.hide{
+				display: none;
+			}
+			div.endDetails{
+				display: block;
+				background-color: darkolivegreen;
+				color: black;
+				margin: 2px;
+				padding: 0%;
+				text-align: center;
+			}
+			span{
+				margin: 50px;
+				color: white;
+			}
